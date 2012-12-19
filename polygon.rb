@@ -1,5 +1,5 @@
 class Polygon
-  @@first=ARGV[0].to_i
+	@@first=ARGV[0].to_i
 	@@sec=ARGV[1].to_i
 	@@third=ARGV[2].to_i
 #	puts "#@@first #@@sec #@@third"
@@ -28,7 +28,7 @@ class Square<Polygon
 		puts "perimieter is #@peri"
 	end
 	def printarea
-		@area=@@first*@first
+		@area=@@first*@@first
 		puts "area is #@area"
 	end
 end
